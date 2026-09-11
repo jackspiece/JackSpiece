@@ -1,40 +1,47 @@
-# jackspiece
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/header-mobile.png">
+  <img src="assets/header.png" alt="jackspiece. Python, workflow automation and small websites. Featured projects: CSV Cleanup, n8n Intake, Studies in Light and Encoder Review." width="1280">
+</picture>
 
-I build small open-source tools and web pages, and contribute focused fixes to established projects.
+I build small automations, data tools and web interfaces. These projects have something you can try, source you can inspect, and notes that explain what the result means.
 
-For paid projects, I focus on CSV cleanup, workflow automation, website layout and functional code review. Scope, price and funding are agreed before work starts.
+**[Explore the projects](#selected-work)** · [Small project enquiries](https://ugig.net/u/jackspiece) · [Upstream contributions](docs/contributions.md)
 
-## Recent independent samples
+## Selected work
 
-- [n8n intake workflow](https://github.com/jackspiece/n8n-intake-example): preserves the original records, separates ready, review and duplicate queues, and reconciles the totals. The actual export runs in CI.
-- [CSV cleanup tool](https://github.com/jackspiece/csv-cleanup-example): optional trimming and duplicate removal, separate review files, a change log and an HTML report. Checked with 10 tests and GitHub CI.
-- [Studies in Light gallery](https://jackspiece.github.io/gallery-layout-example/): a responsive layout with an enlarged image view, keyboard and touch controls, and credited public domain artwork. [Source](https://github.com/jackspiece/gallery-layout-example).
+### 01 · CSV Cleanup
 
-- [Encoder validation example](https://github.com/jackspiece/encoder-review-example): checks a published encoder against Node Buffer, with negative controls and a recorded result.
+Turn a CSV export into cleaned data, review rows and a change report. IDs stay text, and trimming and exact deduplication are optional.
 
-[Open a project enquiry](https://github.com/jackspiece/gallery-layout-example/issues/new?template=project-enquiry.md) with a short brief and budget. Keep private account details out of public issues.
+**[See the example report →](https://jackspiece.github.io/csv-cleanup-example/)** · [Code and quick start](https://github.com/jackspiece/csv-cleanup-example)
 
-## Project I maintain
+### 02 · n8n Intake
 
-### [Maintainer Radar](https://github.com/JackSpiece/maintainer-radar)
+An importable seven-node workflow with original records, review queues and a reconciliation count. The fictional example accounts for all eight inputs.
 
-A read-only GitHub Action and Python CLI that turns pull request metadata into triage reports, workflow recommendations, and time-boxed review plans. It also includes a no-login browser preview.
+**[View the workflow →](https://github.com/jackspiece/n8n-intake-example)** · [Recorded n8n execution](https://github.com/jackspiece/n8n-intake-example/actions/runs/34645429890)
 
-## Merged upstream work
+### 03 · Studies in Light
 
-### [Decap CMS](https://github.com/decaporg/decap-cms)
+A responsive gallery built with HTML, CSS and JavaScript. Four public domain Monet paintings, readable captions and an enlarged image view.
 
-- [Load GitLab LFS media content](https://github.com/decaporg/decap-cms/pull/7815)
-- [Refresh expired GitLab PKCE access tokens](https://github.com/decaporg/decap-cms/pull/7854)
-- [Use Bearer authentication for GitLab GraphQL requests](https://github.com/decaporg/decap-cms/pull/7855)
+**[Open the gallery →](https://jackspiece.github.io/gallery-layout-example/)** · [Source and layout notes](https://github.com/jackspiece/gallery-layout-example)
 
-### [Agentic Security](https://github.com/msoedov/agentic_security)
+### 04 · Encoder Review
 
-- [Add MCP client usage examples](https://github.com/msoedov/agentic_security/pull/300)
-- [Migrate the static UI to Tailwind CSS v4](https://github.com/msoedov/agentic_security/pull/301)
-- [Remove obsolete Agno artifacts](https://github.com/msoedov/agentic_security/pull/313)
-- [Remove the retired MCP server and client](https://github.com/msoedov/agentic_security/pull/314)
+One published encoder checked against an independent reference. Includes the checker tests, exact source fingerprint and a recorded run of 65,976 cases.
 
-## Current focus
+**[Read the review →](https://github.com/jackspiece/encoder-review-example)** · [Saved result](https://github.com/jackspiece/encoder-review-example/blob/main/results/2026-09-11.json)
 
-I prefer a small number of sustained contribution tracks: reproduce the issue, ship a tested fix, respond to review, and follow through after merge.
+These four are independent work samples, using fictional data or credited public domain artwork where applicable.
+
+## More projects
+
+- **[Maintainer Radar](https://github.com/jackspiece/maintainer-radar)** turns pull request metadata into a review plan. [Try the browser demo](https://jackspiece.github.io/maintainer-radar/).
+- **[Flappy Fly](https://github.com/jackspiece/flappy-fly)** combines a playable browser arcade with an ongoing fly-connectome learning experiment. [Open the arcade](https://jackspiece.github.io/flappy-fly/).
+
+## Have a small project?
+
+I take focused CSV cleanup, Python, workflow and website layout jobs. A short brief and a redacted sample help establish the scope. We agree on price, delivery and funding before work starts.
+
+**[Contact me on uGig](https://ugig.net/u/jackspiece)** or [open a project enquiry](https://github.com/jackspiece/csv-cleanup-example/issues/new?template=work-request.md). Keep private data and account details out of public GitHub issues.
