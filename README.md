@@ -1,6 +1,15 @@
-# JackSpiece
+# jackspiece
 
-I build and maintain small open-source tools, and I contribute focused fixes to established projects. My recent work centers on authentication, reliability, developer tooling, and repository maintenance.
+I build small open-source tools and web pages, and contribute focused fixes to established projects.
+
+For paid projects, I focus on CSV cleanup, website layout and functional code review. Scope, price and funding are agreed before work starts.
+
+## Recent independent samples
+
+- [CSV cleanup tool](https://github.com/jackspiece/csv-cleanup-example): optional trimming and duplicate removal, separate review files, a change log and an HTML report. Checked with 10 tests and GitHub CI.
+- [Studies in Light gallery](https://jackspiece.github.io/gallery-layout-example/): a responsive layout with an enlarged image view, keyboard and touch controls, and credited public domain artwork. [Source](https://github.com/jackspiece/gallery-layout-example).
+
+[Open a project enquiry](https://github.com/jackspiece/gallery-layout-example/issues/new?template=project-enquiry.md) with a short brief and budget. Keep private account details out of public issues.
 
 ## Project I maintain
 
