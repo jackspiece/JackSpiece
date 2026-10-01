@@ -1,0 +1,14 @@
+test_changed_payload_conflicts (test_retry_demo.RetryTests.test_changed_payload_conflicts) ... ok
+test_concurrent_same_key_has_one_acceptance (test_retry_demo.RetryTests.test_concurrent_same_key_has_one_acceptance) ... ok
+test_distinct_business_actions_remain_distinct (test_retry_demo.RetryTests.test_distinct_business_actions_remain_distinct) ... ok
+test_json_key_order_does_not_create_conflict (test_retry_demo.RetryTests.test_json_key_order_does_not_create_conflict) ... ok
+test_naive_retry_creates_two_acceptances (test_retry_demo.RetryTests.test_naive_retry_creates_two_acceptances) ... ok
+test_new_key_on_retry_duplicates (test_retry_demo.RetryTests.test_new_key_on_retry_duplicates) ... ok
+test_precommit_failure_rolls_back_both_records (test_retry_demo.RetryTests.test_precommit_failure_rolls_back_both_records) ... ok
+test_reopen_provider_replays_persisted_record (test_retry_demo.RetryTests.test_reopen_provider_replays_persisted_record) ... ok
+test_same_key_survives_lost_reply (test_retry_demo.RetryTests.test_same_key_survives_lost_reply) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.052s
+
+OK
