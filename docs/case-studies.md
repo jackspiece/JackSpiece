@@ -1,6 +1,6 @@
 # Engineering case studies
 
-[← Back to the profile](../README.md) · [Contribution status and merge dates](contributions.md)
+[← Back to the profile](https://github.com/jackspiece) · [Contribution status and merge dates](contributions.md)
 
 These notes connect a problem, a design choice and inspectable evidence. Test counts and experiment measurements refer to their linked records, rather than a claim about every current version.
 
