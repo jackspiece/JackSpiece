@@ -1,6 +1,6 @@
 # Upstream contributions
 
-[← Back to the profile](../README.md) · [Engineering case studies](case-studies.md)
+[← Back to the profile](https://github.com/jackspiece) · [Engineering case studies](case-studies.md)
 
 Selected public PRs authored by `jackspiece`. Status and merge dates were checked against GitHub on **October 4, 2026**. These are contributions to the named upstream projects, not claims of ownership of those projects.
 
