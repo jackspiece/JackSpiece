@@ -43,7 +43,7 @@ Its boundary matters: it does not infer dates, currencies or whether two names i
 
 The [seven-node n8n example](https://github.com/jackspiece/n8n-intake-example) keeps original and normalized values alongside reasons for each decision. Identical normalized records become duplicates; conflicting versions of an ID go together to review. Its eight fictional records produce three ready, four for review and one duplicate.
 
-The [verification guide](https://github.com/jackspiece/n8n-intake-example/blob/main/docs/verification.md) distinguishes classifier tests from an actual n8n execution. The [recorded execution](https://github.com/jackspiece/n8n-intake-example/actions/runs/34645429890) exercises the importable workflow. Duplicate detection covers one run, and email checks cover basic formatting; a production connection would need persistent reconciliation and service-specific verification.
+The [verification guide](https://github.com/jackspiece/n8n-intake-example/blob/main/docs/verification.md) distinguishes classifier tests from an actual n8n execution. The [recorded execution](https://github.com/jackspiece/n8n-intake-example/blob/main/docs/verification.md#actual-n8n-execution) exercises the importable workflow. Duplicate detection covers one run, and email checks cover basic formatting; a production connection would need persistent reconciliation and service-specific verification.
 
 ## Flappy Fly
 
