@@ -26,7 +26,7 @@ Turn a CSV export into cleaned data, review rows and a change report. IDs stay t
 
 ### n8n Intake
 
-An importable seven-node n8n workflow that validates records, separates review queues and reconciles every input.
+An importable seven-node n8n workflow that validates records, separates review queues and reconciles every input. Duplicate detection is scoped to one run.
 
 **[View the workflow →](https://github.com/jackspiece/n8n-intake-example)** · [Recorded n8n execution](https://github.com/jackspiece/n8n-intake-example/blob/main/docs/verification.md#actual-n8n-execution)
 
@@ -38,7 +38,7 @@ An importable seven-node n8n workflow that validates records, separates review q
 
 ## Research in progress
 
-[Flappy Fly](https://github.com/jackspiece/flappy-fly) is an exploratory experiment that connects a fixed fruit-fly connectome to Flappy Bird through a trainable action decoder. [Play the arcade](https://jackspiece.github.io/flappy-fly/), or read the [method, pilot results and upstream credits](docs/case-studies.md#flappy-fly).
+[Flappy Fly](https://github.com/jackspiece/flappy-fly) is an exploratory experiment that connects a fixed fruit-fly connectome to Flappy Bird through a trainable action decoder. The arcade is played manually or by a scripted demo; the learned decoder has not yet cleared a pipe on held-out layouts (pilot 02). [Play the arcade](https://jackspiece.github.io/flappy-fly/), or read the [method, pilot results and upstream credits](docs/case-studies.md#flappy-fly).
 
 ## Have a small project?
 
