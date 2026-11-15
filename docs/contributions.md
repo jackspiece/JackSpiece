@@ -2,7 +2,7 @@
 
 [← Back to the profile](https://github.com/jackspiece) · [Engineering case studies](case-studies.md)
 
-Selected public PRs authored by `jackspiece`. Status and merge dates were checked against GitHub on **October 4, 2026**. These are contributions to the named upstream projects, not claims of ownership of those projects.
+Selected pull requests I opened in other people's projects. Status and merge dates were last checked on November 15, 2026 (UTC).
 
 ## Merged contributions
 
@@ -33,13 +33,14 @@ Four GitLab backend fixes form a connected reliability story. [Read the problem,
 | [#313 · Remove obsolete Agno artifacts](https://github.com/msoedov/agentic_security/pull/313) | June 10, 2026 |
 | [#314 · Remove the retired MCP server and client](https://github.com/msoedov/agentic_security/pull/314) | June 11, 2026 |
 
-The MCP examples are historical work: the later cleanup removed that integration. These links record the changes in context, rather than advertise a currently supported MCP feature.
+The MCP examples from #300 no longer apply, because #314 later removed that integration.
 
-## Open proposals
+## Still open
 
-These PRs remained **open and unmerged** at the status check above. They are work submitted for upstream consideration.
+- [python-docx-template #657 · Core-properties namespace conflict](https://github.com/elapouya/python-docx-template/pull/657). Restores the core-properties namespace after `docxcompose` is imported, with a regression test that inspects the generated document XML. I tested it locally. Upstream CI has never run on it: both workflow runs expired while waiting for a maintainer to approve them.
 
-- **[Agentic Security #322 · Stateless JSONL scan command](https://github.com/msoedov/agentic_security/pull/322).** Proposes one-shot scanning with JSON Lines on stdout, diagnostics on stderr, explicit exit statuses and optional CSV artifacts. The PR links its verification; adoption remains an upstream decision.
-- **[python-docx-template #657 · Core-properties namespace conflict](https://github.com/elapouya/python-docx-template/pull/657).** Proposes restoring the core-properties namespace after importing `docxcompose`, with a regression that inspects the generated document XML. The PR records local verification; its upstream workflow runs have failed without starting jobs, so there is no passing upstream CI result to claim.
+## Closed without merge
 
-For current status, use the linked PRs. Test results in historical PR descriptions belong to the revisions and environments recorded there.
+- [Agentic Security #322 · Stateless JSONL scan command](https://github.com/msoedov/agentic_security/pull/322). One-shot scanning with JSON Lines on stdout, diagnostics on stderr, explicit exit statuses and optional CSV artifacts. Closed on October 18, 2026, after the maintainer added a stateless scan command to main in a separate commit.
+
+The linked PRs show the current status. Test results quoted in a PR description apply to the revision they were run on.
